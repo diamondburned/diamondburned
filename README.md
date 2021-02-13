@@ -4,6 +4,7 @@
 
 ### 🔌🔌🔌
 
+- [catnip-gtk](https://github.com/diamondburned/catnip-gtk) - GTK audio visualizer based on [catnip](https://github.com/noriah/catnip).
 - [cchat-gtk](https://github.com/diamondburned/cchat-gtk) - GTK frontend for cchat.
 - [cchat-ipc](https://github.com/diamondburned/cchat-ipc) - IPC protocols for cchat backends.
 - [cchat](https://github.com/diamondburned/cchat) - Common API for a unified chat client.
