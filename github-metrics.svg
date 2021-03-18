@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="871" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="721" class="">
 
   <defs><style/></defs>
   <style>/* SVG global context */
@@ -989,7 +989,7 @@
         </h2>
         <div class="field">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-          1603 Commits
+          1607 Commits
         </div>
         <div class="field">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 1.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v7.736a.75.75 0 101.5 0V1.75A1.75 1.75 0 0011.25 0h-8.5A1.75 1.75 0 001 1.75v11.5c0 .966.784 1.75 1.75 1.75h3.17a.75.75 0 000-1.5H2.75a.25.25 0 01-.25-.25V1.75zM4.75 4a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zM4 7.75A.75.75 0 014.75 7h2a.75.75 0 010 1.5h-2A.75.75 0 014 7.75zm11.774 3.537a.75.75 0 00-1.048-1.074L10.7 14.145 9.281 12.72a.75.75 0 00-1.062 1.058l1.943 1.95a.75.75 0 001.055.008l4.557-4.45z"/></svg>
@@ -1029,7 +1029,7 @@
         </div>
         <div class="field">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
-          207 Releases
+          210 Releases
         </div>
         <div class="field">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8.878.392a1.75 1.75 0 00-1.756 0l-5.25 3.045A1.75 1.75 0 001 4.951v6.098c0 .624.332 1.2.872 1.514l5.25 3.045a1.75 1.75 0 001.756 0l5.25-3.045c.54-.313.872-.89.872-1.514V4.951c0-.624-.332-1.2-.872-1.514L8.878.392zM7.875 1.69a.25.25 0 01.25 0l4.63 2.685L8 7.133 3.245 4.375l4.63-2.685zM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432L2.5 5.677zm6.25 8.271l4.625-2.683a.25.25 0 00.125-.216V5.677L8.75 8.432v5.516z"/></svg>
@@ -1079,21 +1079,21 @@
         </mask>
         <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
         
-          <rect mask="url(#languages-bar)" x="0" y="0" width="412.6317998104177" height="8" fill="#00ADD8"/>
+          <rect mask="url(#languages-bar)" x="0" y="0" width="412.6338161311602" height="8" fill="#00ADD8"/>
         
-          <rect mask="url(#languages-bar)" x="412.6317998104177" y="0" width="21.27550492274231" height="8" fill="#89e051"/>
+          <rect mask="url(#languages-bar)" x="412.6338161311602" y="0" width="21.27459928896878" height="8" fill="#89e051"/>
         
-          <rect mask="url(#languages-bar)" x="433.90730473316006" y="0" width="10.205351337834458" height="8" fill="#e34c26"/>
+          <rect mask="url(#languages-bar)" x="433.90841542012896" y="0" width="10.204916926953219" height="8" fill="#e34c26"/>
         
-          <rect mask="url(#languages-bar)" x="444.1126560709945" y="0" width="6.758661758462872" height="8" fill="#563d7c"/>
+          <rect mask="url(#languages-bar)" x="444.11333234708223" y="0" width="6.758374062712544" height="8" fill="#563d7c"/>
         
-          <rect mask="url(#languages-bar)" x="450.8713178294574" y="0" width="5.026596183929703" height="8" fill="#f1e05a"/>
+          <rect mask="url(#languages-bar)" x="450.8717064097948" y="0" width="5.026382216962216" height="8" fill="#f1e05a"/>
         
-          <rect mask="url(#languages-bar)" x="455.89791401338704" y="0" width="1.519877643829562" height="8" fill="#ff3e00"/>
+          <rect mask="url(#languages-bar)" x="455.898088626757" y="0" width="1.51981294724394" height="8" fill="#ff3e00"/>
         
-          <rect mask="url(#languages-bar)" x="457.4177916572166" y="0" width="1.4080589914920592" height="8" fill="#7e7eff"/>
+          <rect mask="url(#languages-bar)" x="457.4179015740009" y="0" width="1.4079990546876235" height="8" fill="#7e7eff"/>
         
-          <rect mask="url(#languages-bar)" x="458.82585064870864" y="0" width="1.1741493512913113" height="8" fill="#ec915c"/>
+          <rect mask="url(#languages-bar)" x="458.82590062868854" y="0" width="1.174099371311444" height="8" fill="#ec915c"/>
         
       </svg>
       
@@ -1197,7 +1197,91 @@
                 
                   <div class="field">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-                    Pushed 1 commit in <div class="repo">diamondburned/handy</div>
+                    Pushed 1 commit in <div class="repo">diamondburned/cchat-discord</div>
+                  </div>
+                  <div class="details">
+                    
+                      <div>on branch <div class="code">v2</div></div>
+                    
+                    
+                      <div class="commit">
+                        <div class="sha">#71f2e15</div>
+                        <div class="message">bumped to cchat v0.5.4</div>
+                      </div>
+                    
+                  </div>
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                  <div class="field">
+                    
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
+                    
+                    Created new
+                    tag <div class="code">v0.5.4</div> in <div class="repo">diamondburned/cchat</div>
+                  </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                  <div class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8.878.392a1.75 1.75 0 00-1.756 0l-5.25 3.045A1.75 1.75 0 001 4.951v6.098c0 .624.332 1.2.872 1.514l5.25 3.045a1.75 1.75 0 001.756 0l5.25-3.045c.54-.313.872-.89.872-1.514V4.951c0-.624-.332-1.2-.872-1.514L8.878.392zM7.875 1.69a.25.25 0 01.25 0l4.63 2.685L8 7.133 3.245 4.375l4.63-2.685zM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432L2.5 5.677zm6.25 8.271l4.625-2.683a.25.25 0 00.125-.216V5.677L8.75 8.432v5.516z"/></svg>
+                    Released
+                    <div class="bold">v0.5.4</div> of <div class="repo">diamondburned/cchat</div>
+                  </div>
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                  <div class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
+                    Pushed 1 commit in <div class="repo">diamondburned/cchat</div>
                   </div>
                   <div class="details">
                     
@@ -1205,12 +1289,62 @@
                     
                     
                       <div class="commit">
-                        <div class="sha">#ec07079</div>
-                        <div class="message">update to latest gotk3; no need for replace</div>
+                        <div class="sha">#d40f221</div>
+                        <div class="message">Add missing return in Columnate</div>
                       </div>
                     
                   </div>
                 
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                  <div class="field">
+                    
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
+                    
+                    Created new
+                    tag <div class="code">v0.5.3</div> in <div class="repo">diamondburned/cchat</div>
+                  </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+              </section>
+            </div>
+          
+            <div class="row fill-width">
+              <section class="activity">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                  <div class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8.878.392a1.75 1.75 0 00-1.756 0l-5.25 3.045A1.75 1.75 0 001 4.951v6.098c0 .624.332 1.2.872 1.514l5.25 3.045a1.75 1.75 0 001.756 0l5.25-3.045c.54-.313.872-.89.872-1.514V4.951c0-.624-.332-1.2-.872-1.514L8.878.392zM7.875 1.69a.25.25 0 01.25 0l4.63 2.685L8 7.133 3.245 4.375l4.63-2.685zM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432L2.5 5.677zm6.25 8.271l4.625-2.683a.25.25 0 00.125-.216V5.677L8.75 8.432v5.516z"/></svg>
+                    Released
+                    <div class="bold">v0.5.3</div> of <div class="repo">diamondburned/cchat</div>
+                  </div>
                 
                 
                 
@@ -1231,16 +1365,16 @@
                 
                   <div class="field">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-                    Pushed 1 commit in <div class="repo">diamondburned/tcell-sixel</div>
+                    Pushed 1 commit in <div class="repo">diamondburned/cchat</div>
                   </div>
                   <div class="details">
                     
-                      <div>on branch <div class="code">6el</div></div>
+                      <div>on branch <div class="code">master</div></div>
                     
                     
                       <div class="commit">
-                        <div class="sha">#f9c4f44</div>
-                        <div class="message">Player example: better pipeline controls</div>
+                        <div class="sha">#ee9c2cc</div>
+                        <div class="message">Remove redundant function</div>
                       </div>
                     
                   </div>
@@ -1255,163 +1389,14 @@
             <div class="row fill-width">
               <section class="activity">
                 
-                
-                
-                
-                
-                
-                
-                
-                
-                  <div class="field">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-                    Pushed 1 commit in <div class="repo">diamondburned/tcell-sixel</div>
-                  </div>
-                  <div class="details">
-                    
-                      <div>on branch <div class="code">6el</div></div>
-                    
-                    
-                      <div class="commit">
-                        <div class="sha">#2abcf82</div>
-                        <div class="message">Player example: concurrent rendering pipeline</div>
-                      </div>
-                    
-                  </div>
-                
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                  <div class="field">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/></svg>
-                    Starred <div class="repo">kevinhwang91/nvim-bqf</div>
-                  </div>
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                  <div class="field">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-                    Pushed 1 commit in <div class="repo">diamondburned/tcell-sixel</div>
-                  </div>
-                  <div class="details">
-                    
-                      <div>on branch <div class="code">6el</div></div>
-                    
-                    
-                      <div class="commit">
-                        <div class="sha">#3fc7b41</div>
-                        <div class="message">Added player example and StaticImage; some tweaks</div>
-                      </div>
-                    
-                  </div>
-                
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
                   <div class="field">
                     
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v8.5a.25.25 0 01-.25.25h-6.5a.75.75 0 00-.53.22L4.5 14.44v-2.19a.75.75 0 00-.75-.75h-2a.25.25 0 01-.25-.25v-8.5zM1.75 1A1.75 1.75 0 000 2.75v8.5C0 12.216.784 13 1.75 13H3v1.543a1.457 1.457 0 002.487 1.03L8.061 13h6.189A1.75 1.75 0 0016 11.25v-8.5A1.75 1.75 0 0014.25 1H1.75zm5.03 3.47a.75.75 0 010 1.06L5.31 7l1.47 1.47a.75.75 0 01-1.06 1.06l-2-2a.75.75 0 010-1.06l2-2a.75.75 0 011.06 0zm2.44 0a.75.75 0 000 1.06L10.69 7 9.22 8.47a.75.75 0 001.06 1.06l2-2a.75.75 0 000-1.06l-2-2a.75.75 0 00-1.06 0z"/></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
                     
-                    Commented on <div class="issue">#1107 Only inotify the config file</div>
-                  </div>
-                    <div class="details">
-                    <div>opened by diamondburned in <div class="repo">WayfireWM/wayfire</div></div>
-                    <div class="comment">I'm not sure, I think the name accurately describes what it does, and it's a function not used elsewhere, so I don't think it's a huge deal. I can change it if you have a better suggestion.</div>
+                    Created new
+                    tag <div class="code">v0.5.2</div> in <div class="repo">diamondburned/cchat</div>
                   </div>
                 
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                
-                
-                
-                
-                
-                
-                  <div class="field">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 1.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v7.736a.75.75 0 101.5 0V1.75A1.75 1.75 0 0011.25 0h-8.5A1.75 1.75 0 001 1.75v11.5c0 .966.784 1.75 1.75 1.75h3.17a.75.75 0 000-1.5H2.75a.25.25 0 01-.25-.25V1.75zM4.75 4a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zM4 7.75A.75.75 0 014.75 7h2a.75.75 0 010 1.5h-2A.75.75 0 014 7.75zm11.774 3.537a.75.75 0 00-1.048-1.074L10.7 14.145 9.281 12.72a.75.75 0 00-1.062 1.058l1.943 1.95a.75.75 0 001.055.008l4.557-4.45z"/></svg>
-                    Reviewed <div class="issue">#1107 Only inotify the config file</div>
-                  </div>
-                  <div class="details">
-                    <div>opened  in <div class="repo">WayfireWM/wayfire</div></div>
-                  </div>
-                
-                
-                
-                
-                
-                
-              </section>
-            </div>
-          
-            <div class="row fill-width">
-              <section class="activity">
-                
-                
-                  <div class="field">
-                    
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v8.5a.25.25 0 01-.25.25h-6.5a.75.75 0 00-.53.22L4.5 14.44v-2.19a.75.75 0 00-.75-.75h-2a.25.25 0 01-.25-.25v-8.5zM1.75 1A1.75 1.75 0 000 2.75v8.5C0 12.216.784 13 1.75 13H3v1.543a1.457 1.457 0 002.487 1.03L8.061 13h6.189A1.75 1.75 0 0016 11.25v-8.5A1.75 1.75 0 0014.25 1H1.75zm5.03 3.47a.75.75 0 010 1.06L5.31 7l1.47 1.47a.75.75 0 01-1.06 1.06l-2-2a.75.75 0 010-1.06l2-2a.75.75 0 011.06 0zm2.44 0a.75.75 0 000 1.06L10.69 7 9.22 8.47a.75.75 0 001.06 1.06l2-2a.75.75 0 000-1.06l-2-2a.75.75 0 00-1.06 0z"/></svg>
-                    
-                    Commented on <div class="issue">#1107 Only inotify the config file</div>
-                  </div>
-                    <div class="details">
-                    <div>opened by diamondburned in <div class="repo">WayfireWM/wayfire</div></div>
-                    <div class="comment">I've rebased in a fix for this. It's untested though.</div>
-                  </div>
                 
                 
                 
