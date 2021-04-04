@@ -1022,7 +1022,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                             <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                         </svg>
-                        1560 Commits
+                        1561 Commits
                     </div>
                     <div class="field">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -1124,14 +1124,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="413.12697705000096" height="8" fill="#00ADD8"/>
-                    <rect mask="url(#languages-bar)" x="413.12697705000096" y="0" width="21.04140238900108" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="434.1683794390021" y="0" width="10.093057946228381" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="444.26143738523047" y="0" width="6.684293613119123" height="8" fill="#563d7c"/>
-                    <rect mask="url(#languages-bar)" x="450.9457309983496" y="0" width="4.971286619854724" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="455.9170176182043" y="0" width="1.5031538476757598" height="8" fill="#ff3e00"/>
-                    <rect mask="url(#languages-bar)" x="457.42017146588006" y="0" width="1.4185987980916333" height="8" fill="#7e7eff"/>
-                    <rect mask="url(#languages-bar)" x="458.8387702639717" y="0" width="1.1612297360283097" height="8" fill="#ec915c"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="413.12705253405926" height="8" fill="#00ADD8"/>
+                    <rect mask="url(#languages-bar)" x="413.12705253405926" y="0" width="21.041368504042435" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="434.1684210381017" y="0" width="10.093041692423393" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="444.26146273052507" y="0" width="6.684282848769463" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="450.9457455792945" y="0" width="4.9712786141221015" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="455.91702419341664" y="0" width="1.5031514270050734" height="8" fill="#ff3e00"/>
+                    <rect mask="url(#languages-bar)" x="457.42017562042173" y="0" width="1.4185965135879335" height="8" fill="#7e7eff"/>
+                    <rect mask="url(#languages-bar)" x="458.8387721340096" y="0" width="1.1612278659903317" height="8" fill="#ec915c"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -1193,6 +1193,37 @@
                 </h2>
                 <div class="row">
                     <section>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 1 commit in
+                                        <span class="repo">
+                                            diamondburned/tmplutil
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>
+                                        on branch
+                                        <span class="code">
+                                            embed1.16
+                                        </span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">
+                                            #65b22dc
+                                        </span>
+                                        <span class="message">
+                                            Fix fail not being logged w/ Log=true
+                                        </span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
                         <div class="row fill-width">
                             <section class="activity">
                                 <div class="field">
@@ -1368,37 +1399,6 @@
                                         Starred
                                         <span class="repo">
                                             ThatGeekyWeeb/RIPdocomo
-                                        </span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">
-                                            diamondburned/tmplutil
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>
-                                        on branch
-                                        <span class="code">
-                                            embed1.16
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #731815b
-                                        </span>
-                                        <span class="message">
-                                            Updated README for go:embed
                                         </span>
                                     </div>
                                 </div>
