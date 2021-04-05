@@ -25,3 +25,4 @@
 - [disblob](https://github.com/diamondburned/disblob) - Blob emoji CSS for Discord.
 - [lsoc-overlay](https://github.com/diamondburned/lsoc-overlay) - Overlay to show processes using the webcam.
 - [blurcam](https://github.com/diamondburned/blurcam) - V4L2 script to blur the webcam.
+- [sysmet](https://github.com/diamondburned/sysmet) - Daemonless metrics collector and frontend.
