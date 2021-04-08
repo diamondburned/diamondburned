@@ -1022,7 +1022,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                             <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                         </svg>
-                        1543 Commits
+                        1544 Commits
                     </div>
                     <div class="field">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -1124,14 +1124,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="413.06482222310063" height="8" fill="#00ADD8"/>
-                    <rect mask="url(#languages-bar)" x="413.06482222310063" y="0" width="20.777432327012992" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="433.84225455011364" y="0" width="10.38192376245406" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="444.2241783125677" y="0" width="6.835140929827455" height="8" fill="#563d7c"/>
-                    <rect mask="url(#languages-bar)" x="451.05931924239513" y="0" width="4.908920489834342" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="455.96823973222945" y="0" width="1.4842963776738547" height="8" fill="#ff3e00"/>
-                    <rect mask="url(#languages-bar)" x="457.45253610990335" y="0" width="1.4008020939677572" height="8" fill="#7e7eff"/>
-                    <rect mask="url(#languages-bar)" x="458.8533382038711" y="0" width="1.146661796128922" height="8" fill="#ec915c"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="413.0705791549291" height="8" fill="#00ADD8"/>
+                    <rect mask="url(#languages-bar)" x="413.0705791549291" y="0" width="20.77488382784579" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="433.8454629827749" y="0" width="10.380650346006536" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="444.2261133287814" y="0" width="6.834302551403537" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="451.06041588018496" y="0" width="4.908318375983925" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="455.9687342561689" y="0" width="1.4841143182151668" height="8" fill="#ff3e00"/>
+                    <rect mask="url(#languages-bar)" x="457.45284857438406" y="0" width="1.4006302756740576" height="8" fill="#7e7eff"/>
+                    <rect mask="url(#languages-bar)" x="458.8534788500581" y="0" width="1.1465211499419197" height="8" fill="#ec915c"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -1193,6 +1193,41 @@
                 </h2>
                 <div class="row">
                     <section>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 1 commit in
+                                        <span class="repo">
+                                            diamondburned/arikawa
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>
+                                        on branch
+                                        <span class="code">
+                                            v2
+                                        </span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">
+                                            #cafff10
+                                        </span>
+                                        <span class="message">
+                                            Bot: Add ErrorReplier
+
+This commit adds the ErrorReplier callback into Context, which allows
+the user to implement a custom way to format errors, such as putting
+them into an embed.
+                                        </span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
                         <div class="row fill-width">
                             <section class="activity">
                                 <div class="field">
@@ -1378,37 +1413,6 @@ This commit uses the correct timeout, Gateway.ReconnectTimeout, when reconnectin
                                         Starred
                                         <span class="repo">
                                             mmcloughlin/avo
-                                        </span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">
-                                            diamondburned/arikawa
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>
-                                        on branch
-                                        <span class="code">
-                                            v2
-                                        </span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">
-                                            #37d2851
-                                        </span>
-                                        <span class="message">
-                                            API: Add CrosspostMessage method
                                         </span>
                                     </div>
                                 </div>
