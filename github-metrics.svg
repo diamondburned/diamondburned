@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="899" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="851" class="">
     <defs>
         <style/>
     </defs>
@@ -1120,7 +1120,7 @@
           </div>
                         <div class="field">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
-            567 issue comments
+            568 issue comments
           </div>
                     </section>
                 </div>
@@ -1232,6 +1232,23 @@
     </h2>
                 <div class="row">
                     <section>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
+                      Commented on <span class="issue">#16 Crashes soon after opening</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by MossyMossMoss in <span class="repo">diamondburned/cchat-gtk</span></div>
+                                    <div class="comment">This bug is fixed in the latest commit. Can you build that and try again?
+</div>
+                                </div>
+                            </section>
+                        </div>
                         <div class="row fill-width">
                             <section class="activity">
                                 <div class="field">
@@ -1354,29 +1371,6 @@ disposable thread-safe wrapper that doesn't work once it's invalidated
 if it wants the guarantee that the component doesn't work anymore once
 the context is stopped.</span>
                                     </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                      Commented on <span class="issue">#773 More performant {Idle,Timeout}Add</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by diamondburned in <span class="repo">gotk3/gotk3</span></div>
-                                    <div class="comment">For the record, the code below can reproduce this issue:
-<code class="language-go"><span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    gtk<span class="token punctuation">.</span><span class="token function">Init</span><span class="token punctuation">(</span><span class="token operator">&amp;</span>os<span class="token punctuation">.</span>Args<span class="token punctuation">)</span>
-<span class="token trimmed">(19 more lines were trimmed)</span></code>
-To reproduce, simply compile the code with whatever's on latest master and leave it running for around 3-5 minutes. The spinner rendered in the application will slowly start to stutter and eventually become very sluggish.
-The same snippet of code above does not have the same behavior when running with the <code>fix/idleadd-lag</code> branch, that is, the spinner will move smoothly even after much longer. To test the code with the <code>fix/idleadd-lag</code> branch, add this to the <code>go.mod</code> file:
-<code>replace github.com/gotk3/gotk3 =&gt; github.com/diamondburned/gotk3 v0.0.0-20210504230107-792bb1ded6e8</code>
-</div>
                                 </div>
                             </section>
                         </div>
