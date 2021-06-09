@@ -1163,7 +1163,7 @@
           </h2>
                         <div class="field">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-            1341 Commits
+            1342 Commits
           </div>
                         <div class="field">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 1.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v7.736a.75.75 0 101.5 0V1.75A1.75 1.75 0 0011.25 0h-8.5A1.75 1.75 0 001 1.75v11.5c0 .966.784 1.75 1.75 1.75h3.17a.75.75 0 000-1.5H2.75a.25.25 0 01-.25-.25V1.75zM4.75 4a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zM4 7.75A.75.75 0 014.75 7h2a.75.75 0 010 1.5h-2A.75.75 0 014 7.75zm11.774 3.537a.75.75 0 00-1.048-1.074L10.7 14.145 9.281 12.72a.75.75 0 00-1.062 1.058l1.943 1.95a.75.75 0 001.055.008l4.557-4.45z"/></svg>
@@ -1249,14 +1249,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="413.2812148734797" height="8" fill="#00ADD8"/>
-                    <rect mask="url(#languages-bar)" x="413.2812148734797" y="0" width="19.434312424328578" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="432.7155272978083" y="0" width="12.367271953052589" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="445.0827992508609" y="0" width="6.514888226217234" height="8" fill="#563d7c"/>
-                    <rect mask="url(#languages-bar)" x="451.5976874770782" y="0" width="4.591592116105514" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="456.18927959318364" y="0" width="1.3883466965506368" height="8" fill="#ff3e00"/>
-                    <rect mask="url(#languages-bar)" x="457.5776262897343" y="0" width="1.3498358124024425" height="8" fill="#7e7eff"/>
-                    <rect mask="url(#languages-bar)" x="458.92746210213676" y="0" width="1.0725378978632878" height="8" fill="#ec915c"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="413.2873390712496" height="8" fill="#00ADD8"/>
+                    <rect mask="url(#languages-bar)" x="413.2873390712496" y="0" width="19.431764850103647" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="432.7191039213533" y="0" width="12.36565077178451" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="445.08475469313777" y="0" width="6.514034212915347" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="451.59878890605313" y="0" width="4.59099022078393" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="456.1897791268371" y="0" width="1.3881647031678932" height="8" fill="#ff3e00"/>
+                    <rect mask="url(#languages-bar)" x="457.577943830005" y="0" width="1.349658867273205" height="8" fill="#7e7eff"/>
+                    <rect mask="url(#languages-bar)" x="458.9276026972782" y="0" width="1.0723973027218594" height="8" fill="#ec915c"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -1300,6 +1300,25 @@
     </h2>
                 <div class="row">
                     <section>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 1 commit in <span class="repo">diamondburned/gotk4</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">4</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#5636736</span>
+                                        <span class="message">Underscore vars to avoid collision</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
                         <div class="row fill-width">
                             <section class="activity">
                                 <div class="field">
@@ -1422,25 +1441,6 @@
                                     <div class="commit">
                                         <span class="sha">#5615739</span>
                                         <span class="message">Fix share 404ing</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 1 commit in <span class="repo">diamondburned/caddy-upshare</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">updog</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#6b09a87</span>
-                                        <span class="message">Cleaner root path in template</span>
                                     </div>
                                 </div>
                             </section>
