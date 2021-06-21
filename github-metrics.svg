@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="791" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="843" class="">
     <defs>
         <style/>
     </defs>
@@ -1307,6 +1307,68 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
+                      Pushed 2 commits in <span class="repo">diamondburned/go</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">cgo-dynobject</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#5869c2b</span>
+                                        <span class="message">cmd/go: use cmd/cgo's dynobjout instead
+
+This commit updates cmd/go to directly use the object file output that
+cmd/cgo has instead of using the previously written Go file.</span>
+                                    </div>
+                                    <div class="commit">
+                                        <span class="sha">#5b72e50</span>
+                                        <span class="message">cmd/cgo: output cgo pragmas as object instead of go
+
+In this commit, cmd/cgo now outputs the -dynimport file into an object
+file if the -dynobjout flag is used instead of the -dynout flag.
+
+cmd/link is also updated to handle the minimal object data that cmd/cgo
+is now made to output. Without this change, compiling a Cgo program
+would result in a "slice bounds out of range" panic.</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 1 commit in <span class="repo">diamondburned/go</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">cgo-dynobject</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#08d962a</span>
+                                        <span class="message">cmd/cgo: output cgo pragmas as object instead of go
+
+In this commit, cmd/cgo now outputs the -dynimport file into an object
+file if the -dynobjout flag is used instead of the -dynout flag.
+
+cmd/go is updated accordingly to directly use the object file instead of
+using the written Go file.
+
+cmd/link is also updated to handle the minimal object data that cmd/cgo
+is now made to output. Without this change, compiling a Cgo program
+would result in a "slice bounds out of range" panic.</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
                       Pushed 1 commit in <span class="repo">diamondburned/caddy-imagebrowser</span>
                     </div>
                                 </div>
@@ -1390,40 +1452,6 @@
                       Created new
                       branch  <span class="code">name-dir-first</span> in  <span class="repo">diamondburned/caddy</span>
                     </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 1 commit in <span class="repo">diamondburned/aqours</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">us</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#e1c938a</span>
-                                        <span class="message">Performance improv, disable visualizer by default</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"/>
-                                    </svg>
-                                    <div class="content">
-                      Closed <span class="issue">#10 Invalid type/array markings</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened  in <span class="repo">diamondburned/gotk4</span></div>
                                 </div>
                             </section>
                         </div>
