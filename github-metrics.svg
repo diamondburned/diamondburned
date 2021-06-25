@@ -1163,7 +1163,7 @@
           </h2>
                         <div class="field">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/></svg>
-            1310 Commits
+            1311 Commits
           </div>
                         <div class="field">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 1.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v7.736a.75.75 0 101.5 0V1.75A1.75 1.75 0 0011.25 0h-8.5A1.75 1.75 0 001 1.75v11.5c0 .966.784 1.75 1.75 1.75h3.17a.75.75 0 000-1.5H2.75a.25.25 0 01-.25-.25V1.75zM4.75 4a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5zM4 7.75A.75.75 0 014.75 7h2a.75.75 0 010 1.5h-2A.75.75 0 014 7.75zm11.774 3.537a.75.75 0 00-1.048-1.074L10.7 14.145 9.281 12.72a.75.75 0 00-1.062 1.058l1.943 1.95a.75.75 0 001.055.008l4.557-4.45z"/></svg>
@@ -1249,14 +1249,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="411.91626852784276" height="8" fill="#00ADD8"/>
-                    <rect mask="url(#languages-bar)" x="411.91626852784276" y="0" width="18.865984017241015" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="430.7822525450838" y="0" width="14.524331194845518" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="445.3065837399293" y="0" width="6.3243697264052985" height="8" fill="#563d7c"/>
-                    <rect mask="url(#languages-bar)" x="451.6309534663346" y="0" width="4.457317634129226" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="456.0882711004638" y="0" width="1.5228093219971888" height="8" fill="#7e7eff"/>
-                    <rect mask="url(#languages-bar)" x="457.611080422461" y="0" width="1.3477465019408108" height="8" fill="#ff3e00"/>
-                    <rect mask="url(#languages-bar)" x="458.9588269244018" y="0" width="1.0411730755981778" height="8" fill="#ec915c"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="411.90595126733723" height="8" fill="#00ADD8"/>
+                    <rect mask="url(#languages-bar)" x="411.90595126733723" y="0" width="18.870032065631595" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="430.7759833329688" y="0" width="14.527447660727379" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="445.3034309936962" y="0" width="6.325726737768659" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="451.62915773146483" y="0" width="4.458274034678418" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="456.08743176614325" y="0" width="1.523136069110906" height="8" fill="#7e7eff"/>
+                    <rect mask="url(#languages-bar)" x="457.6105678352542" y="0" width="1.3480356860646339" height="8" fill="#ff3e00"/>
+                    <rect mask="url(#languages-bar)" x="458.9586035213188" y="0" width="1.041396478681162" height="8" fill="#ec915c"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -1300,6 +1300,25 @@
     </h2>
                 <div class="row">
                     <section>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                      Pushed 1 commit in <span class="repo">diamondburned/kvpack</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">unsafe-footgun</span></div>
+                                    <div class="commit">
+                                        <span class="sha">#4fc30db</span>
+                                        <span class="message">Fix memory sharing flaws</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
                         <div class="row fill-width">
                             <section class="activity">
                                 <div class="field">
@@ -1431,25 +1450,6 @@ Programs using SendText can be updated with
                                 <div class="details">
                                     <div>opened by samhza in <span class="repo">diamondburned/arikawa</span></div>
                                     <div>1 file changed <span class="code">++0 --12</span></div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 1 commit in <span class="repo">diamondburned/arikawa</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">v3</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#17dbccc</span>
-                                        <span class="message">bot: Clarify unexported *Context field</span>
-                                    </div>
                                 </div>
                             </section>
                         </div>
