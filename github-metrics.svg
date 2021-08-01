@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="910" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="933" class="">
     <defs>
         <style/>
     </defs>
@@ -1209,7 +1209,7 @@
           </div>
                         <div class="field">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/></svg>
-            631 issue comments
+            632 issue comments
           </div>
                     </section>
                 </div>
@@ -1334,6 +1334,29 @@
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
+                      Commented on <span class="issue">#810 [BUG] Unreferencing doesn't happen in the UI thread, which can lead to crashes</span>
+                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by olabiniV2 in <span class="repo">gotk3/gotk3</span></div>
+                                    <div class="comment">I'm still confused on the actual problem here. If C actually keeps the GObject past the C function call, then it should've called <code>g_object_ref</code> on the object, so Go <code>_unref</code>ing the object should not have caused it to free.
+Both <code>g_object_ref</code> and <code>g_object_unref</code> are documented to be thread-safe functions, so Go calling the finalizers in different threads shouldn't have caused an issue, as long as the objects are used properly.
+If a C function does not take the ownership of an object (and therefore does not call <code>g_object_ref</code>), then competent casting should've convinced the GC that the Go object is still needed on memory:
+<code class="language-go"><span class="token keyword">func</span> <span class="token punctuation">(</span>obj <span class="token operator">*</span>AnyObject<span class="token punctuation">)</span> <span class="token function">CMethod</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// Note that no uintptrs are handled around here. See below.</span>
+<span class="token trimmed">(2 more lines were trimmed)</span></code>
+The only other case I could think of (but unsure if it's actually reasonable) is the library's use of <code>uintptr</code> in weird places, which might trick the GC into thinking that an object is done during a C function call, just because the C object was casted from a <code>uintptr</code> and not by directly accessing the Go <code>*Object</code> object (which has the finalizer attached).
+</div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
@@ -1450,25 +1473,6 @@
                                     <div class="commit">
                                         <span class="sha">#4f507c2</span>
                                         <span class="message">Rename unstable to pkgs</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                      Pushed 1 commit in <span class="repo">diamondburned/gotk4</span>
-                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">4</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#6e1d320</span>
-                                        <span class="message">Remove redundant extra in shell.nix</span>
                                     </div>
                                 </div>
                             </section>
