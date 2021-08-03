@@ -2,7 +2,7 @@
 name: Metrics
 on:
   # Schedule updates (each hour)
-  schedule: [{cron: "0 * * * *"}]
+  schedule: [{cron: "*/10 * * * *"}]
   # Lines below let you run workflow manually and on each commit
   push: {branches: ["master", "main"]}
   workflow_dispatch:
@@ -23,10 +23,10 @@ jobs:
           base: activity, repositories
           config_animated: yes
           config_timezone: America/Los_Angeles
-          plugin_activity: yes
-          plugin_activity_days: 14
-          plugin_activity_filter: all
-          plugin_activity_limit: 8
+          plugin_activity: no
+          # plugin_activity_days: 14
+          # plugin_activity_filter: all
+          # plugin_activity_limit: 8
           plugin_languages: yes
           plugin_languages_colors: github
           plugin_languages_threshold: 0.2%
