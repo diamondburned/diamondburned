@@ -11,7 +11,7 @@
 
 - 163 public repositories.
 - 1875 stargazers.
-- Programming Languages: Go (77%), Shell (4%), JavaScript (3%), and others (16%).
+- Programming Languages: Go (77%), Shell (5%), JavaScript (3%), and others (15%).
 
 <hr>
 
