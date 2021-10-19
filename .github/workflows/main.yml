@@ -18,7 +18,7 @@ jobs:
           nix_path: nixpkgs=channel:nixos-unstable
       - uses: diamondburned/nix-shell-action@68cd946a048710a48bfeebca826c8ff77004028c
         env:
-          METRICS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
         with:
           packages: curl, jq, bash, coreutils
           script: |

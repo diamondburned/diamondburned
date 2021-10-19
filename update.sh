@@ -110,7 +110,7 @@ queryGitHub() {
 
 # GET url...
 httpGET() {
-	curl -X GET -s "$@"
+	curl -X GET -f -s "$@"
 }
 
 main "$@"
