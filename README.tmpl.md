@@ -9,9 +9,9 @@
 
 ### diamondburned
 
-- 163 public repositories.
-- 1875 stargazers.
-- Programming Languages: Go (77%), Shell (4%), JavaScript (3%), and others (16%).
+- $(nPublicRepos) public repositories.
+- $(nStargazers) stargazers.
+- Programming Languages: $(repoLanguages).
 
 <hr>
 
