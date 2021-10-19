@@ -1,20 +1,25 @@
+### diamondburned
+
 <p align="center">
+	<img alt="Repositories badge" src="https://img.shields.io/badge/Public%20Repositories-$(nPublicRepos)-%23248eb7" />
+	<img alt="Stargazers badge" src="https://img.shields.io/badge/Stargazers-$(nStargazers)-%23bf5d2f" />
+	<a href="https://blog.arikawa-hi.me">
+		<img alt="Blog badge" src="https://img.shields.io/badge/WriteFreely-Blog-%23f7a8b8?style=flat" />
+	</a>
 	<a href="https://matrix.to/#/#nixhub-home:matrix.org">
 		<img alt="Matrix chat room badge" src="https://img.shields.io/matrix/nixhub-home:matrix.org?color=%23222&label=nixhub-home&logo=Matrix" />
 	</a>
-	<a href="https://blog.arikawa-hi.me">
-		<img alt="Blog badge" src="https://img.shields.io/badge/Blog-WriteFreely-%23f7a8b8?style=flat" />
-	</a>
 </p>
 
-### diamondburned
+<img align="center" alt="A thin strip of the Pride Flag" src="rainbow-strip.svg" />
 
 - $(nPublicRepos) public repositories.
 - $(nStargazers) stargazers.
 - Programming Languages: $(repoLanguages).
 - Preferred Licenses: $(repoLicenses).
+- My blog: [blog.arikawa-hi.me](https://blog.arikawa-hi.me/).
 
-<hr>
+---
 
 **Active Projects**
 
@@ -55,10 +60,4 @@
 - [vocalcord](https://github.com/diamondburned/vocalcord) - Proof-of-concept Discord voice client.
 </details>
 
-<details>
-<summary><b>Garfield</b></summary>
 
-![garfield](garfield.png)
-
-I don't know what you expected.
-</details>

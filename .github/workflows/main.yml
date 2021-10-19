@@ -1,8 +1,8 @@
 name: Render README
 
 on:
-  # Schedule updates (every 10 minutes)
-  schedule: [{cron: "*/10 * * * *"}]
+  # Schedule updates (every 30 minutes)
+  schedule: [{cron: "*/30 * * * *"}]
   # Lines below let you run workflow manually and on each commit
   push: {branches: ["master", "main"]}
 
@@ -23,6 +23,9 @@ jobs:
           packages: curl, jq, bash, coreutils
           script: |
             ./update.sh
+
+            # Skip if no changes.
+            git status --porcelain && echo "No changes." && exit 0
 
             # Push code.
             git config --global user.name  "github-actions[bot]"
