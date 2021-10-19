@@ -16,7 +16,7 @@ jobs:
           ACTIONS_ALLOW_UNSECURE_COMMANDS: true
         with:
           nix_path: nixpkgs=channel:nixos-unstable
-      - uses: diamondburned/nix-shell-action@9c50feff1c71026cc3aaf2b2d06aee1bca7a1047
+      - uses: diamondburned/nix-shell-action@68cd946a048710a48bfeebca826c8ff77004028c
         with:
           packages: curl, jq, bash, coreutils
           script: |
