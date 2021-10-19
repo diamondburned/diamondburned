@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
-<svg width="600" height="8" version="1.1" viewBox="0 0 158.75 2.1167" xmlns="http://www.w3.org/2000/svg">
-	<g transform="scale(1 .66667)" fill-rule="evenodd">
+<svg width="600" height="4" version="1.1" viewBox="0 0 158.75 1.0584" xmlns="http://www.w3.org/2000/svg">
+	<g transform="matrix(1 0 0 .33334 -.00125 0)" fill-rule="evenodd">
 		<rect width="26.458" height="3.175" fill="#d1221f"/>
 		<rect x="26.458" width="26.458" height="3.175" fill="#f68a1e"/>
 		<rect x="52.917" width="26.458" height="3.175" fill="#fde01a"/>
