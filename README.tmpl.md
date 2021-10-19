@@ -11,7 +11,9 @@
 	</a>
 </p>
 
-<img align="center" alt="A thin strip of the Pride Flag" src="rainbow-strip.svg" />
+<p align="center">
+	<img alt="A thin strip of the Pride Flag" src="rainbow-strip.svg" />
+</p>
 
 - $(nPublicRepos) public repositories.
 - $(nStargazers) stargazers.
