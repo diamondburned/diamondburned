@@ -13,6 +13,10 @@
 	<img alt="A thin strip of the Pride Flag" src="rainbow-strip.svg" />
 </p>
 
+<h6 align="right">
+	<sub>README generated in Bash.</sub>
+</h6>
+
 - 📚️ 163 public repositories.
 - ⭐️ 1875 stargazers.
 - 💻️ Programming Languages: Go (77%), Shell (5%), JavaScript (3%), and others (15%).
