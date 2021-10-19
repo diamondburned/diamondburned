@@ -13,11 +13,11 @@
 	<img alt="A thin strip of the Pride Flag" src="rainbow-strip.svg" />
 </p>
 
-- $(nPublicRepos) public repositories.
-- $(nStargazers) stargazers.
-- Programming Languages: $(repoLanguages).
-- Preferred Licenses: $(repoLicenses).
-- My blog: [blog.arikawa-hi.me](https://blog.arikawa-hi.me/).
+- 📚️ $(nPublicRepos) public repositories.
+- ⭐️ $(nStargazers) stargazers.
+- 💻️ Programming Languages: $(repoLanguages).
+- 📃️ Preferred Licenses: $(repoLicenses).
+- ✒️ My blog: [blog.arikawa-hi.me](https://blog.arikawa-hi.me/).
 
 ---
 
