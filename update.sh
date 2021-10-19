@@ -53,7 +53,7 @@ repoLanguages() {
 # repoLicenses ($publicReposJSON)
 repoLicenses() {
 	echo -n "$publicReposJSON"                             \
-		| jq -rn 'inputs.license.name | select(. != null)' \
+		| jq -rn 'inputs.license.spdx_id | select(. != null)' \
 		| sort | uniq -c | sort -nr                        \
 		| topUnique 3
 }
