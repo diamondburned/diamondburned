@@ -1,4 +1,4 @@
-### diamondburned
+## diamondburned
 
 <p align="center">
 	<img alt="Repositories badge" src="https://img.shields.io/badge/Public%20Repositories-163-%23248eb7" />
@@ -9,9 +9,7 @@
 	<a href="https://matrix.to/#/#nixhub-home:matrix.org">
 		<img alt="Matrix chat room badge" src="https://img.shields.io/matrix/nixhub-home:matrix.org?color=%23222&label=nixhub-home&logo=Matrix" />
 	</a>
-</p>
-
-<p align="center">
+	<br>
 	<img alt="A thin strip of the Pride Flag" src="rainbow-strip.svg" />
 </p>
 
