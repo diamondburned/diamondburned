@@ -25,7 +25,7 @@ jobs:
             ./update.sh
 
             # Skip if no changes.
-            [[ "$(git status --porcelain)" ]] && echo "No changes." && exit 0
+            [[ ! "$(git status --porcelain)" ]] && echo "No changes." && exit 0
 
             # Push code.
             git config --global user.name  "github-actions[bot]"
