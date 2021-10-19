@@ -60,4 +60,10 @@
 - [vocalcord](https://github.com/diamondburned/vocalcord) - Proof-of-concept Discord voice client.
 </details>
 
+<details>
+<summary><b>Garfield</b></summary>
 
+![garfield](garfield.png)
+
+I don't know what you expected.
+</details>
