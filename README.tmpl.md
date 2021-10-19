@@ -12,6 +12,7 @@
 - $(nPublicRepos) public repositories.
 - $(nStargazers) stargazers.
 - Programming Languages: $(repoLanguages).
+- Preferred Licenses: $(repoLicenses).
 
 <hr>
 

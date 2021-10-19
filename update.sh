@@ -44,30 +44,44 @@ nStargazers() {
 
 # repoLanguages ($publicReposJSON)
 repoLanguages() {
-	readarray -d $'\n' languages < <(
-		echo -n "$publicReposJSON"                         \
-			| jq -rn 'inputs.language | select(. != null)' \
-			| sort | uniq -c | sort -nr
-	)
-	
+	echo -n "$publicReposJSON"                         \
+		| jq -rn 'inputs.language | select(. != null)' \
+		| sort | uniq -c | sort -nr                    \
+		| topUnique 3
+}
+
+# repoLicenses ($publicReposJSON)
+repoLicenses() {
+	echo -n "$publicReposJSON"                             \
+		| jq -rn 'inputs.license.name | select(. != null)' \
+		| sort | uniq -c | sort -nr                        \
+		| topUnique 3
+}
+
+# topUnique numUnique < uniqOutput
+topUnique() {
+	numUnique="${1:- 0}"
+	(( numUnique < 1 )) && return 1
+
+	readarray -d $'\n' lines
+
 	nrepos=$(nPublicRepos)
 	top=()
 	sum=0
 
-	for language in "${languages[@]}"; {
-		[[ "$language" =~ \ *([0-9]+)\ ([A-Za-z0-9]+) ]] && {
-			count=${BASH_REMATCH[1]}
-			lang=${BASH_REMATCH[2]}
+	for line in "${lines[@]}"; {
+		[[ "$line" =~ \ *([0-9]+)\ ([A-Za-z0-9 ]+) ]] && {
+			local count=${BASH_REMATCH[1]}
+			local item=${BASH_REMATCH[2]}
 
-			percentage=$[ count * 100 / nrepos ]
-			top+=( "$lang ($percentage%)" )
+			local percentage=$[ count * 100 / nrepos ]
+			top+=( "$item ($percentage%)" )
 
 			(( sum += percentage )) || true # (()) is weird.
-			(( ${#top[@]} == 3 )) && break
+			(( ${#top[@]} == numUnique )) && break
 		}
 	}
 
-	# No languages.
 	(( sum == 0 )) && return 0
 
 	printf "%s, " "${top[@]}"
