@@ -19,8 +19,8 @@
 
 - 📚️ 165 public repositories.
 - ⭐️ 1880 stargazers.
-- 💻️ Programming Languages: Go (76%), Shell (5%), JavaScript (3%), and others (16%).
-- 📃️ Preferred Licenses: ISC (24%), GPL (20%), AGPL (13%), and others (43%).
+- 💻️ Programming Languages: Go (77%), Shell (5%), JavaScript (3%), and others (15%).
+- 📃️ Preferred Licenses: ISC (24%), GPL (20%), AGPL (15%), and others (41%).
 - ✒️ My blog: [blog.arikawa-hi.me](https://blog.arikawa-hi.me/).
 
 ---
