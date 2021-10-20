@@ -1,7 +1,7 @@
 ## diamondburned
 
 <p align="center">
-	<img alt="Repositories badge" src="https://img.shields.io/badge/Public%20Repositories-163-%23248eb7" />
+	<img alt="Repositories badge" src="https://img.shields.io/badge/Public%20Repositories-165-%23248eb7" />
 	<img alt="Stargazers badge" src="https://img.shields.io/badge/Stargazers-1876-%23bf5d2f" />
 	<a href="https://blog.arikawa-hi.me">
 		<img alt="Blog badge" src="https://img.shields.io/badge/WriteFreely-Blog-%23f7a8b8?style=flat" />
@@ -17,10 +17,10 @@
 	<sub>README generated in Bash.</sub>
 </h6>
 
-- 📚️ 163 public repositories.
+- 📚️ 165 public repositories.
 - ⭐️ 1876 stargazers.
-- 💻️ Programming Languages: Go (77%), Shell (5%), JavaScript (3%), and others (15%).
-- 📃️ Preferred Licenses: ISC (25%), GPL (20%), AGPL (14%), and others (41%).
+- 💻️ Programming Languages: Go (76%), Shell (5%), JavaScript (3%), and others (16%).
+- 📃️ Preferred Licenses: ISC (24%), GPL (20%), AGPL (13%), and others (43%).
 - ✒️ My blog: [blog.arikawa-hi.me](https://blog.arikawa-hi.me/).
 
 ---
