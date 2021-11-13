@@ -47,6 +47,8 @@ saveCSV() {
 		# current value. Succeed if the value is the same.
 		[[ "${record##*,}" == "$value" ]]
 	} || {
+		# Ensure target directory exists.
+		mkdir -p "$(dirname "$filepath")"
 		# Value is not the same or the value doesn't exist. Add the record.
 		printf -v ts "%(%s)T"
 		printf "%d,%d\n" "$ts" "$value" >> "$filepath"
