@@ -19,7 +19,7 @@ main() {
 		while read -r json; do
 			reposJSON+=( "$json" )
 			last=0
-		done < <(queryGitHub "/user/repos?per_page=100&page=$reposPage" | jq -c '.[]')
+		done < <(queryGitHub "/user/repos?per_page=100&page=$reposPage&type=public" | jq -c '.[]')
 
 		# Out of pages. Break.
 		(( last == 1 )) && break
@@ -30,6 +30,27 @@ main() {
 	publicReposJSON=$(printf "%s\n" "${reposJSON[@]}" | jq -c "select((.private | not ) and (.fork | not))")
 
 	render > "$out"
+	saveCSV "data/stargazers.csv" "$(nStargazers)"
+}
+
+# saveCSV filepath value
+# saveCSV saves the given value into the file but only if the value differs.
+saveCSV() {
+	local filepath="$1"
+	local value="$2"
+	local ts=""
+
+	{
+		# Get the last line of the CSV file.
+		record="$(tail -n1 "$filepath" 2> /dev/null)"
+		# Get the last column, which is the value, and compare it with the
+		# current value. Succeed if the value is the same.
+		[[ "${record##*,}" == "$value" ]]
+	} || {
+		# Value is not the same or the value doesn't exist. Add the record.
+		printf -v ts "%(%s)T"
+		printf "%d,%d\n" "$ts" "$value" >> "$filepath"
+	}
 }
 
 # nPublicRepos ($publicReposJSON)

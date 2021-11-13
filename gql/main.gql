@@ -1,0 +1,37 @@
+query ($repos_after: String) {
+  viewer {
+    issues {
+      totalCount
+    }
+    issueComments {
+      totalCount
+    }
+    pullRequests {
+      totalCount
+    }
+    organizations {
+      totalCount
+    }
+    monthlyEstimatedSponsorsIncomeInCents
+    repositories(first: 100, after: $repos_after, isFork: false, privacy: PUBLIC) {
+      totalCount
+      pageInfo {
+        hasNextPage
+        endCursor
+      }
+      nodes {
+        name
+        stargazers(first: 100, orderBy: {field: STARRED_AT, direction: DESC}) {
+          totalCount
+          pageInfo {
+            hasNextPage
+            endCursor
+          }
+          edges {
+            starredAt
+          }
+        }
+      }
+    }
+  }
+}
