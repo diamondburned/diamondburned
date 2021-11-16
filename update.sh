@@ -64,7 +64,7 @@ renderSVG() {
 	local date="$2"
 	local color="$3"
 
-	local w=40
+	local w=65
 	local h=10
 	local m=100 # multiples for accuracy; beware of epoch overflow
 

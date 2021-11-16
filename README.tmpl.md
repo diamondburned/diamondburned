@@ -18,7 +18,7 @@
 </h6>
 
 - 📚️ $(nPublicRepos) public repositories.
-- ⭐️ $(nStargazers) stargazers. <img alt="Stars graph" src="sparklines/stargazers.svg" height="15px" />
+- ⭐️ $(nStargazers) stargazers. <img align="right" alt="Stars graph" src="sparklines/stargazers.svg" height="15px" />
 - 💻️ Programming Languages: $(repoLanguages).
 - 📃️ Preferred Licenses: $(repoLicenses).
 - ✒️ My blog: [blog.arikawa-hi.me](https://blog.arikawa-hi.me/).
