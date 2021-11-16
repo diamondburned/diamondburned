@@ -131,11 +131,11 @@ EOL
 
 		# Draw the first move command if we haven't.
 		[[ ! $drew ]] && {
-			printf 'L0 %d ' "$y"
+			printf 'M0 %d ' "$y"
 			drew=1
 		}
 
-		printf ' M%d %d' "$x" "$y"
+		printf ' L%d %d' "$x" "$y"
 	}
 
 	echo '" />'
