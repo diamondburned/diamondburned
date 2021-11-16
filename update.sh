@@ -31,6 +31,7 @@ main() {
 
 	render > "$out"
 	saveCSV "data/stargazers.csv" "$(nStargazers)"
+	renderSVG "data/stargazers.csv" "-7 days" gold > sparklines/stargazers.svg
 }
 
 # saveCSV filepath value
@@ -53,6 +54,92 @@ saveCSV() {
 		printf -v ts "%(%s)T"
 		printf "%d,%d\n" "$ts" "$value" >> "$filepath"
 	}
+}
+
+# renderSVG "/path/to/data.csv" "date" "color"
+# renderSVG renders an SVG graph of the given CSV file. The CSV file must have 2
+# columns, 1st being Unix epoch date and 2nd being the raw value.
+renderSVG() {
+	local path="$1"
+	local date="$2"
+	local color="$3"
+
+	local w=40
+	local h=10
+	local m=100 # multiples for accuracy; beware of epoch overflow
+
+	w=$[ w * m ]
+	h=$[ h * m ]
+
+	cat << EOL
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 $w $h">
+EOL
+
+	readarray -d $'\n' rows < "$path"
+
+	# Find the minimum and maximum values.
+	local min=
+	local max=
+	local gap=
+
+	# startAt and endAt are in epoch.
+	startAt=$(date -d "$date" +%s)
+	printf -v endAt "%(%s)T"
+
+	for row in "${rows[@]}"; {
+		# Parse the row into an array of values delimited by a comma.
+		IFS=, values=( $row )
+		local t="${values[0]}"
+		local v="${values[1]}"
+
+		# If the datapoint is outside the time range, then skip it.
+		(( t < startAt )) && continue
+
+		(( v > max )) || [[ ! "$max" ]] && max=$v
+		(( v < min )) || [[ ! "$min" ]] && min=$v
+	}
+
+	# Deal with the inaccurate integer math by scaling up the values.
+	min=$[ min * m ]
+	max=$[ max * m ]
+	# Add a bit of headroom (5% or 20/100 parts extra) for the max value.
+	max=$[ max + (max / (20 * m)) ]
+	# Do a bit more (10% or 10/100) for the min value.
+	min=$[ min - (min / (10 * m)) ]
+	# gap is the difference between the minimum and maximum value.
+	gap=$[ max - min ]
+
+	printf '\t'
+	printf '<path stroke="%s" stroke-width="125" stroke-linecap="round" stroke-linejoin="round" d="' "$color"
+
+	local drew=
+
+	for row in "${rows[@]}"; {
+		IFS=, values=( $row )
+		local t="${values[0]}"
+		local v="${values[1]}"
+
+		# Calculate the time instant if the startAt were to be the starting
+		# point.
+		t=$[ t - startAt ]
+
+		# Scale the value up.
+		v=$[ v * m ]
+
+		x=$[ t * w / (endAt - startAt) ]
+		y=$[ (gap - (v - min)) * h / gap ]
+
+		# Draw the first move command if we haven't.
+		[[ ! $drew ]] && {
+			printf 'M0 %d ' "$y"
+			drew=1
+		}
+
+		printf ' L%d %d' "$x" "$y"
+	}
+
+	echo '" />'
+	echo '</svg>'
 }
 
 # nPublicRepos ($publicReposJSON)

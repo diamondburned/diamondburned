@@ -10,7 +10,7 @@
 		<img alt="Matrix chat room badge" src="https://img.shields.io/matrix/nixhub-home:matrix.org?color=%23222&label=nixhub-home&logo=Matrix" />
 	</a>
 	<br>
-	<img alt="A thin strip of the Pride Flag" src="rainbow-strip.svg" />
+	<img alt="A thin strip of the Pride Flag" src="static/rainbow-strip.svg" />
 </p>
 
 <h6 align="right">
@@ -18,7 +18,7 @@
 </h6>
 
 - 📚️ 170 public repositories.
-- ⭐️ 1973 stargazers.
+- ⭐️ 1973 stargazers. <img alt="Stars graph" src="sparklines/stargazers.svg" height="15px" />
 - 💻️ Programming Languages: Go (78%), Shell (5%), JavaScript (3%), and others (14%).
 - 📃️ Preferred Licenses: ISC (25%), GPL (19%), AGPL (13%), and others (43%).
 - ✒️ My blog: [blog.arikawa-hi.me](https://blog.arikawa-hi.me/).
@@ -69,7 +69,7 @@
 <details>
 <summary><b>Garfield</b></summary>
 
-![garfield](garfield.png)
+![garfield](static/garfield.png)
 
 I don't know what you expected.
 </details>

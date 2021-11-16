@@ -10,7 +10,7 @@
 		<img alt="Matrix chat room badge" src="https://img.shields.io/matrix/nixhub-home:matrix.org?color=%23222&label=nixhub-home&logo=Matrix" />
 	</a>
 	<br>
-	<img alt="A thin strip of the Pride Flag" src="rainbow-strip.svg" />
+	<img alt="A thin strip of the Pride Flag" src="static/rainbow-strip.svg" />
 </p>
 
 <h6 align="right">
@@ -18,7 +18,7 @@
 </h6>
 
 - 📚️ $(nPublicRepos) public repositories.
-- ⭐️ $(nStargazers) stargazers.
+- ⭐️ $(nStargazers) stargazers. <img alt="Stars graph" src="sparklines/stargazers.svg" height="15px" />
 - 💻️ Programming Languages: $(repoLanguages).
 - 📃️ Preferred Licenses: $(repoLicenses).
 - ✒️ My blog: [blog.arikawa-hi.me](https://blog.arikawa-hi.me/).
@@ -69,7 +69,7 @@
 <details>
 <summary><b>Garfield</b></summary>
 
-![garfield](garfield.png)
+![garfield](static/garfield.png)
 
 I don't know what you expected.
 </details>
