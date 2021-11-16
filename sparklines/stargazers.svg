@@ -1,3 +1,3 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 6500 1000">
-	<path stroke="gold" stroke-width="125" stroke-linecap="round" stroke-linejoin="round" d="M0 911  L3549 911 L3961 819 L4185 865 L4242 819 L4280 728 L4464 637 L4955 546 L5248 500 L5560 455 L5794 363 L5847 272 L5907 181 L6060 135 L6100 90 L6233 44" />
+	<path fill="none" stroke="gold" stroke-width="125" stroke-linecap="round" stroke-linejoin="round" d="L0 911  M3547 911 M3959 819 M4183 865 M4241 819 M4278 728 M4463 637 M4953 546 M5246 500 M5558 455 M5792 363 M5845 272 M5905 181 M6058 135 M6098 90 M6231 44" />
 </svg>

@@ -110,7 +110,7 @@ EOL
 	gap=$[ max - min ]
 
 	printf '\t'
-	printf '<path stroke="%s" stroke-width="125" stroke-linecap="round" stroke-linejoin="round" d="' "$color"
+	printf '<path fill="none" stroke="%s" stroke-width="125" stroke-linecap="round" stroke-linejoin="round" d="' "$color"
 
 	local drew=
 
@@ -131,11 +131,11 @@ EOL
 
 		# Draw the first move command if we haven't.
 		[[ ! $drew ]] && {
-			printf 'M0 %d ' "$y"
+			printf 'L0 %d ' "$y"
 			drew=1
 		}
 
-		printf ' L%d %d' "$x" "$y"
+		printf ' M%d %d' "$x" "$y"
 	}
 
 	echo '" />'
