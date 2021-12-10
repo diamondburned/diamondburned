@@ -73,3 +73,12 @@
 
 I don't know what you expected.
 </details>
+
+<details>
+<summary><b>Avatar Author</b></summary>
+
+**楠元とうか**
+
+Pixiv: https://twitter.com/i/web/status/1129234242347577345
+Twitter: https://twitter.com/iro1v1i
+</details>
