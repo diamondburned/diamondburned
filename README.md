@@ -2,7 +2,7 @@
 
 <p align="center">
 	<img alt="Repositories badge" src="https://img.shields.io/badge/Public%20Repositories-174-%23248eb7" />
-	<img alt="Stargazers badge" src="https://img.shields.io/badge/Stargazers-1980-%23bf5d2f" />
+	<img alt="Stargazers badge" src="https://img.shields.io/badge/Stargazers-1981-%23bf5d2f" />
 	<a href="https://blog.arikawa-hi.me">
 		<img alt="Blog badge" src="https://img.shields.io/badge/WriteFreely-Blog-%23f7a8b8?style=flat" />
 	</a>
@@ -18,7 +18,7 @@
 </h6>
 
 - 📚️ 174 public repositories.
-- ⭐️ 1980 stargazers. <img align="right" alt="Stars graph" src="sparklines/stargazers.svg" height="18px" />
+- ⭐️ 1981 stargazers. <img align="right" alt="Stars graph" src="sparklines/stargazers.svg" height="18px" />
 - 💻️ Programming Languages: Go (77%), Shell (5%), HTML (4%), and others (14%).
 - 📃️ Preferred Licenses: ISC (25%), GPL (20%), AGPL (11%), and others (44%).
 - ✒️ My blog: [blog.arikawa-hi.me](https://blog.arikawa-hi.me/).
