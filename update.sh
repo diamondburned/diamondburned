@@ -31,7 +31,12 @@ main() {
 
 	render > "$out"
 	saveCSV "data/stargazers.csv" "$(nStargazers)"
-	renderSVG "data/stargazers.csv" "-7 days" gold > sparklines/stargazers.svg
+
+	# This does virtually nothing, but hopefully we can improve it to be better
+	# in the future. For now, just remove the faulty record manually.
+	movingAverage "data/stargazers.csv" 4 \
+		| renderSVG "-7 days" gold        \
+		> sparklines/stargazers.svg
 }
 
 # saveCSV filepath value
@@ -56,13 +61,52 @@ saveCSV() {
 	}
 }
 
-# renderSVG "/path/to/data.csv" "date" "color"
+# movingAverage "/path/to/data.csv" "n-window" y=$[ (gap - (v - min)) * h / gap ]
+movingAverage() {
+	local path="$1"
+	local n="$2"
+
+	readarray -d $'\n' rows < "$path"
+
+	# Don't process if we have less records than the size of the window.
+	(( ${#rows[@]} < n )) && {
+		printf "%s\n" "${rows[@]}"
+		return
+	}
+
+	window=()
+	for row in "${rows[@]}"; {
+		IFS=, values=( $row )
+		local t="${values[0]}"
+		local v="${values[1]}"
+
+		window+=( "$v" )
+
+		(( ${#window[@]} <= n )) && {
+			continue
+		}
+
+		# Pop off the first entry.
+		window=( "${window[@]:1}" )
+
+		# Average out the window.
+		local avg=0
+		for value in "${window[@]}"; {
+			avg=$[ avg + value ]
+		}
+		avg=$[ avg / ${#window[@]} ]
+
+		# Print record
+		echo "$t,$avg"
+	}
+}
+
+# renderSVG "date" "color" < stdin
 # renderSVG renders an SVG graph of the given CSV file. The CSV file must have 2
 # columns, 1st being Unix epoch date and 2nd being the raw value.
 renderSVG() {
-	local path="$1"
-	local date="$2"
-	local color="$3"
+	local date="$1"
+	local color="$2"
 
 	local w=65
 	local h=10
@@ -75,7 +119,7 @@ renderSVG() {
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 $w $h">
 EOL
 
-	readarray -d $'\n' rows < "$path"
+	readarray -d $'\n' rows
 
 	# Find the minimum and maximum values.
 	local min=
@@ -84,7 +128,7 @@ EOL
 
 	# startAt and endAt are in epoch.
 	startAt=$(date -d "$date" +%s)
-	printf -v endAt "%(%s)T"
+	endAt=$(echo -n "${rows[-1]}" | cut -d, -f1)
 
 	for row in "${rows[@]}"; {
 		# Parse the row into an array of values delimited by a comma.
