@@ -37,7 +37,7 @@
 - [intiface-gtk](https://github.com/diamondburned/intiface-gtk) - [Intiface](https://github.com/intiface/intiface-cli-rs) frontend in GTK4.
 
 <details>
-<summary><b>Inactive Projects</b> (18)</summary>
+<summary><b>Inactive Projects</b> (17)</summary>
 
 - [blurcam](https://github.com/diamondburned/blurcam) - V4L2 script to blur the webcam.
 - [cchat](https://github.com/diamondburned/cchat) - Common API for a unified chat client.
@@ -59,7 +59,7 @@
 </details>
 
 <details>
-<summary><b>Deprecated Projects</b> (2)</summary>
+<summary><b>Deprecated Projects</b> (3)</summary>
 
 - [gotk-layer-shell](https://github.com/diamondburned/gotk-layer-shell) - gotk3 bindings for gtk-layer-shell.
 - [handy](https://github.com/diamondburned/handy) - gotk3 bindings for libhandy.
