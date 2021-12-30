@@ -47,9 +47,8 @@
 - [disblob](https://github.com/diamondburned/disblob) - Blob emoji CSS for Discord.
 - [ghproxy](https://github.com/diamondburned/ghproxy) - A GitHub frontend proxy for a single user.
 - [goprofgen](https://github.com/diamondburned/goprofgen) - Script to inject net/http/pprof.
-- [gotk-layer-shell](https://github.com/diamondburned/gotk-layer-shell) - gotk3 bindings for gtk-layer-shell.
 - [gracehttp](https://github.com/diamondburned/gracehttp) - Graceful HTTP server helpers for Go net/http.
-- [handy](https://github.com/diamondburned/handy) - gotk3 bindings for libhandy.
+- [gtkcord3](https://github.com/diamondburned/gtkcord3) - Abandoned GTK Discord client.
 - [lsoc-overlay](https://github.com/diamondburned/lsoc-overlay) - Overlay to show processes using the webcam.
 - [ningen](https://github.com/diamondburned/ningen) - Discord helper library for making clients.
 - [sfmatch](https://github.com/diamondburned/sfmatch) - Structured regex matching for Golang.
@@ -62,7 +61,8 @@
 <details>
 <summary><b>Deprecated Projects</b> (2)</summary>
 
-- [gtkcord3](https://github.com/diamondburned/gtkcord3) - Abandoned GTK Discord client.
+- [gotk-layer-shell](https://github.com/diamondburned/gotk-layer-shell) - gotk3 bindings for gtk-layer-shell.
+- [handy](https://github.com/diamondburned/handy) - gotk3 bindings for libhandy.
 - [vocalcord](https://github.com/diamondburned/vocalcord) - Proof-of-concept Discord voice client.
 </details>
 
@@ -77,8 +77,8 @@ I don't know what you expected.
 <details>
 <summary><b>Avatar Author</b></summary>
 
-**楠元とうか**
+楠元とうか
 
-Pixiv: https://twitter.com/i/web/status/1129234242347577345
-Twitter: https://twitter.com/iro1v1i
+- Pixiv: https://twitter.com/i/web/status/1129234242347577345
+- Twitter: https://twitter.com/iro1v1i
 </details>
