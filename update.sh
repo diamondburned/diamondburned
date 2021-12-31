@@ -127,8 +127,8 @@ EOL
 	local gap=
 
 	# startAt and endAt are in epoch.
-	startAt=$(date -d "$date" +%s)
 	endAt=$(echo -n "${rows[-1]}" | cut -d, -f1)
+	startAt=$(date -d "$(date -d "@$endAt") -7 days" +%s)
 
 	for row in "${rows[@]}"; {
 		# Parse the row into an array of values delimited by a comma.
