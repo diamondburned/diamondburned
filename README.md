@@ -1,7 +1,7 @@
 ## diamondburned <sub><sup>(they/them)</sup></sub>
 
 <p align="center">
-	<img alt="Repositories badge" src="https://img.shields.io/badge/Public%20Repositories-196-%23248eb7" />
+	<img alt="Repositories badge" src="https://img.shields.io/badge/Public%20Repositories-197-%23248eb7" />
 	<img alt="Stargazers badge" src="https://img.shields.io/badge/Stargazers-2605-%23bf5d2f" />
 	<a href="https://blog.arikawa-hi.me">
 		<img alt="Blog badge" src="https://img.shields.io/badge/WriteFreely-Blog-%23f7a8b8?style=flat" />
@@ -17,7 +17,7 @@
 	<sub>README generated in Bash.</sub>
 </h6>
 
-- 📚️ 196 public repositories.
+- 📚️ 197 public repositories.
 - ⭐️ 2605 stargazers. <img align="right" alt="Stars graph" src="sparklines/stargazers.svg" height="18px" />
 - 💻️ Programming Languages: Go (75%), Shell (4%), Nix (4%), and others (17%).
 - 📃️ Preferred Licenses: GPL (23%), ISC (22%), AGPL (11%), and others (44%).
