@@ -10,7 +10,8 @@
 		<img alt="Matrix chat room badge" src="https://img.shields.io/matrix/nixhub-home:matrix.org?color=%23222&label=nixhub-home&logo=Matrix" />
 	</a>
 	<br>
-	<img alt="Thin strips of the Pride flag and the flag of Ukraine" src="static/all.svg" />
+	<img alt="A thin strip of the Pride Flag" src="static/rainbow-strip.svg" />
+	<img alt="A thin strip of the flag of Ukraine" src="static/ukraine.svg" />
 </p>
 
 <h6 align="right">
