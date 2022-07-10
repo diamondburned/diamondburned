@@ -7,7 +7,10 @@
 		<img alt="Blog badge" src="https://img.shields.io/badge/WriteFreely-Blog-%23f7a8b8?style=flat" />
 	</a>
 	<a href="https://matrix.to/#/#nixhub-home:matrix.org">
-		<img alt="Matrix chat room badge" src="https://img.shields.io/matrix/nixhub-home:matrix.org?color=%23222&label=nixhub-home&logo=Matrix" />
+		<img alt="nixhub Matrix chat room badge" src="https://img.shields.io/matrix/nixhub-home:matrix.org?color=%23222&label=nixhub&logo=Matrix&logoColor=white" />
+	</a>
+	<a href="https://discord.gg/hnzYamS">
+		<img alt="nixhub Discord chat room badge" src="https://img.shields.io/discord/118456055842734083?color=%23738ADB&label=nixhub&logo=Discord&logoColor=white" />
 	</a>
 	<br>
 	<img alt="A thin strip of the Pride Flag" src="static/rainbow-strip.svg" />
