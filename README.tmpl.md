@@ -4,13 +4,16 @@
 	<img alt="Repositories badge" src="https://img.shields.io/badge/Public%20Repositories-$(nPublicRepos)-%23248eb7" />
 	<img alt="Stargazers badge" src="https://img.shields.io/badge/Stargazers-$(nStargazers)-%23bf5d2f" />
 	<a href="https://blog.arikawa-hi.me">
-		<img alt="Blog badge" src="https://img.shields.io/badge/WriteFreely-Blog-%23f7a8b8?style=flat" />
+		<img alt="Blog page" src="https://img.shields.io/badge/WriteFreely-Blog-%23f7a8b8?style=flat" />
+	</a>
+	<a rel="me" href="https://hachyderm.io/@diamond">
+		<img alt="Mastodon page" src="https://img.shields.io/mastodon/follow/109299500694025394?color=%23064898&domain=https%3A%2F%2Fhachyderm.io&label=Mastodon%3A%20hachyderm.io&logo=mastodon&logoColor=%235da7ff&style=flat-square" />
 	</a>
 	<a href="https://matrix.to/#/#nixhub-home:matrix.org">
-		<img alt="nixhub Matrix chat room badge" src="https://img.shields.io/matrix/nixhub-home:matrix.org?color=%23222&label=nixhub&logo=Matrix&logoColor=white" />
+		<img alt="nixhub Matrix chat room" src="https://img.shields.io/matrix/nixhub-home:matrix.org?color=%23222&label=nixhub&logo=Matrix&logoColor=white" />
 	</a>
 	<a href="https://discord.gg/hnzYamS">
-		<img alt="nixhub Discord chat room badge" src="https://img.shields.io/discord/118456055842734083?color=%23738ADB&label=nixhub&logo=Discord&logoColor=white" />
+		<img alt="nixhub Discord chat room" src="https://img.shields.io/discord/118456055842734083?color=%23738ADB&label=nixhub&logo=Discord&logoColor=white" />
 	</a>
 	<br>
 	<img alt="A thin strip of the Pride Flag" src="static/rainbow-strip.svg" />
