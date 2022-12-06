@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: diamondburned/cache-install@main
+      - uses: diamondburned/cache-install@v0.1.0
         with:
           nix-path: nixpkgs=channel:nixos-20.09
           shell-file: shell.nix
