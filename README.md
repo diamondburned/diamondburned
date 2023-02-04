@@ -3,8 +3,8 @@
 <p align="center">
 	<img alt="Repositories badge" src="https://img.shields.io/badge/Public%20Repositories-246-%23248eb7" />
 	<img alt="Stargazers badge" src="https://img.shields.io/badge/Stargazers-3453-%23bf5d2f" />
-	<a href="https://blog.arikawa-hi.me">
-		<img alt="Blog page" src="https://img.shields.io/badge/WriteFreely-Blog-%23f7a8b8?style=flat" />
+	<a href="https://b.libdb.so">
+		<img alt="Blog page" src="https://img.shields.io/badge/Blog-b.libdb.so-%23f7a8b8?style=flat" />
 	</a>
 	<a rel="me" href="https://hachyderm.io/@diamond">
 		<img alt="Mastodon page" src="https://img.shields.io/mastodon/follow/109299500694025394?color=%23064898&domain=https%3A%2F%2Fhachyderm.io&label=Mastodon%3A%20hachyderm.io&logo=mastodon&logoColor=%235da7ff&style=flat-square" />
