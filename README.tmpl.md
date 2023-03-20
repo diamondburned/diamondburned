@@ -20,6 +20,12 @@
 	<img alt="A thin strip of the flag of Ukraine" src="static/ukraine.svg" />
 </p>
 
+<h3 align="center">
+	<a href="https://libdb.so">
+		<code> &gt; Enter the Prompt </code>
+	</a>
+</h3>
+
 <h6 align="right">
 	<sub>README generated in Bash.</sub>
 </h6>
