@@ -1,8 +1,8 @@
 ## diamondburned <sub><sup>(they/them)</sup></sub>
 
 <p align="center">
-	<img alt="Repositories badge" src="https://img.shields.io/badge/Public%20Repositories-285-%23248eb7" />
-	<img alt="Stargazers badge" src="https://img.shields.io/badge/Stargazers-3600-%23bf5d2f" />
+	<img alt="Repositories badge" src="https://img.shields.io/badge/Public%20Repositories-286-%23248eb7" />
+	<img alt="Stargazers badge" src="https://img.shields.io/badge/Stargazers-3588-%23bf5d2f" />
 	<a href="https://b.libdb.so">
 		<img alt="Blog page" src="https://img.shields.io/badge/Blog-b.libdb.so-%23f7a8b8?style=flat" />
 	</a>
@@ -30,9 +30,9 @@
 	<sub>README generated in Bash.</sub>
 </h6>
 
-- 📚️ 285 public repositories.
-- ⭐️ 3600 stargazers. <img align="right" alt="Stars graph" src="sparklines/stargazers.svg" height="18px" />
-- 💻️ Programming Languages: Go (57%), TypeScript (5%), Shell (5%), and others (33%).
+- 📚️ 286 public repositories.
+- ⭐️ 3588 stargazers. <img align="right" alt="Stars graph" src="sparklines/stargazers.svg" height="18px" />
+- 💻️ Programming Languages: Go (58%), TypeScript (5%), Shell (5%), and others (32%).
 - 📃️ Preferred Licenses: GPL (18%), ISC (16%), MIT (12%), and others (54%).
 - ✒️ My blog: [blog.arikawa-hi.me](https://blog.arikawa-hi.me/).
 
