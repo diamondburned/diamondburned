@@ -1,4 +1,4 @@
-## diamondburned <sub><sup>(they/them)</sup></sub>
+## diamondburned <sub><sup>(she/her, they/them)</sup></sub>
 
 <p align="center">
 	<img alt="Repositories badge" src="https://img.shields.io/badge/Public%20Repositories-309-%23248eb7" />
