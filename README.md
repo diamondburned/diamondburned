@@ -32,7 +32,7 @@
 
 - 📚️ 317 public repositories.
 - ⭐️ 3782 stargazers. <img align="right" alt="Stars graph" src="sparklines/stargazers.svg" height="18px" />
-- 💻️ Programming Languages: Go (53%), TypeScript (6%), Shell (4%), and others (37%).
+- 💻️ Programming Languages: Go (53%), TypeScript (7%), Shell (4%), and others (36%).
 - 📃️ Preferred Licenses: GPL (17%), ISC (15%), MIT (11%), and others (57%).
 - ✒️ My blog: [blog.arikawa-hi.me](https://blog.arikawa-hi.me/).
 
