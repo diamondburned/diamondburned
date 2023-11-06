@@ -34,7 +34,8 @@
 - ⭐️ $(nStargazers) stargazers. <img align="right" alt="Stars graph" src="sparklines/stargazers.svg" height="18px" />
 - 💻️ Programming Languages: $(repoLanguages).
 - 📃️ Preferred Licenses: $(repoLicenses).
-- ✒️ My blog: [blog.arikawa-hi.me](https://blog.arikawa-hi.me/).
+- ✒️ My Blog: [blog.arikawa-hi.me](https://blog.arikawa-hi.me/).
+- 💼 My Resume: [resume.pdf](https://github.com/diamondburned/resume/blob/main/resume.pdf)
 
 $(
 # ---
