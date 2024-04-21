@@ -1,7 +1,7 @@
 ## diamondburned <sub><sup>(she/her, it/its)</sup></sub>
 
 <p align="center">
-	<img alt="Repositories badge" src="https://img.shields.io/badge/Public%20Repositories-421-%23248eb7" />
+	<img alt="Repositories badge" src="https://img.shields.io/badge/Public%20Repositories-422-%23248eb7" />
 	<img alt="Stargazers badge" src="https://img.shields.io/badge/Stargazers-4300-%23bf5d2f" />
 	<a href="https://b.libdb.so">
 		<img alt="Blog page" src="https://img.shields.io/badge/Blog-b.libdb.so-%23f7a8b8?style=flat" />
@@ -30,7 +30,7 @@
 	<sub>README generated in Bash.</sub>
 </h6>
 
-- 📚️ 421 public repositories.
+- 📚️ 422 public repositories.
 - ⭐️ 4300 stargazers. <img align="right" alt="Stars graph" src="sparklines/stargazers.svg" height="18px" />
 - 💻️ Programming Languages: Go (46%), TypeScript (11%), Python (7%), and others (36%).
 - 📃️ Preferred Licenses: GPL (16%), ISC (13%), MIT (10%), and others (61%).
