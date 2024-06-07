@@ -14,7 +14,7 @@ main() {
 
 	reposJSON=()
 	reposPage=0
-	for ((;;)); {
+	for ((;;)); do
 		last=1
 		while read -r json; do
 			reposJSON+=( "$json" )
@@ -25,12 +25,22 @@ main() {
 		(( last == 1 )) && break
 		# Not out of pages. Continue.
 		(( reposPage++ )) && continue
-	}
+	done
 
 	publicReposJSON=$(printf "%s\n" "${reposJSON[@]}" | jq -c "select((.private | not ) and (.fork | not))")
 
 	render > "$out"
-	saveCSV "data/stargazers.csv" "$(nStargazers)"
+
+	if [[ "$DO_NOT_UPDATE_METRICS" ]]; then
+		log "Skipping metrics update."
+		return
+	fi
+
+	local nStargazers=$(nStargazers)
+	if [[ "$nStargazers" != null ]]; then
+		# Save the stargazers data.
+		saveCSV "data/stargazers.csv" "$nStargazers"
+	fi
 
 	# This does virtually nothing, but hopefully we can improve it to be better
 	# in the future. For now, just remove the faulty record manually.
@@ -75,30 +85,32 @@ movingAverage() {
 	}
 
 	window=()
-	for row in "${rows[@]}"; {
-		IFS=, values=( $row )
-		local t="${values[0]}"
-		local v="${values[1]}"
+	for row in "${rows[@]}"; do
+		IFS=',' values=( $row )
+		local t
+		local v
+		t="${values[0]}"
+		v="${values[1]}"
 
 		window+=( "$v" )
 
-		(( ${#window[@]} <= n )) && {
+		if (( ${#window[@]} <= n )); then
 			continue
-		}
+		fi
 
 		# Pop off the first entry.
 		window=( "${window[@]:1}" )
 
 		# Average out the window.
 		local avg=0
-		for value in "${window[@]}"; {
+		for value in "${window[@]}"; do
 			avg=$[ avg + value ]
-		}
+		done
 		avg=$[ avg / ${#window[@]} ]
 
 		# Print record
 		echo "$t,$avg"
-	}
+	done
 }
 
 # renderSVG "date" "color" < stdin
@@ -128,9 +140,9 @@ EOL
 
 	# startAt and endAt are in epoch.
 	endAt=$(echo -n "${rows[-1]}" | cut -d, -f1)
-	startAt=$(date -d "$(date -d "@$endAt") -7 days" +%s)
+	startAt=$(date -u -d "$(date -u --rfc-3339=seconds -d "@$endAt") - 7 days" +%s)
 
-	for row in "${rows[@]}"; {
+	for row in "${rows[@]}"; do
 		# Parse the row into an array of values delimited by a comma.
 		IFS=, values=( $row )
 		local t="${values[0]}"
@@ -141,7 +153,7 @@ EOL
 
 		(( v > max )) || [[ ! "$max" ]] && max=$v
 		(( v < min )) || [[ ! "$min" ]] && min=$v
-	}
+	done
 
 	# Deal with the inaccurate integer math by scaling up the values.
 	min=$[ min * m ]
@@ -158,7 +170,7 @@ EOL
 
 	local drew=
 
-	for row in "${rows[@]}"; {
+	for row in "${rows[@]}"; do
 		IFS=, values=( $row )
 		local t="${values[0]}"
 		local v="${values[1]}"
@@ -180,7 +192,7 @@ EOL
 		}
 
 		printf ' L%d %d' "$x" "$y"
-	}
+	done
 
 	echo '" />'
 	echo '</svg>'
@@ -223,7 +235,7 @@ topUnique() {
 	top=()
 	sum=0
 
-	for line in "${lines[@]}"; {
+	for line in "${lines[@]}"; do
 		[[ "$line" =~ \ *([0-9]+)\ ([A-Za-z0-9 ]+) ]] && {
 			local count=${BASH_REMATCH[1]}
 			local item=${BASH_REMATCH[2]}
@@ -234,7 +246,7 @@ topUnique() {
 			(( sum += percentage )) || true # (()) is weird.
 			(( ${#top[@]} == numUnique )) && break
 		}
-	}
+	done
 
 	(( sum == 0 )) && return 0
 
@@ -246,7 +258,7 @@ render() {
 	local render="$(mktemp)"
 
 	(
-		echo "cat << __EOF__"
+		echo "cat<<-__EOF__"
 		cat "$in"
 		echo "__EOF__"
 	) > "$render"
@@ -256,15 +268,19 @@ render() {
 	rm "$render"
 }
 
+log() {
+	echo "$@" 1>&2
+}
+
 fatal() {
 	echo Fatal: "$@" 1>&2
 	exit 1
 }
 
 require() {
-	for dep in "$@"; {
+	for dep in "$@"; do
 		command -v &> /dev/null || fatal "missing $dep"
-	}
+	done
 }
 
 # GETGitHub path...
