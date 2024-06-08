@@ -68,5 +68,3 @@ $(
 
 I don't know what you expected.
 </details>
-
-$(cat funnies.txt)
