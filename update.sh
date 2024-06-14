@@ -221,7 +221,7 @@ repoLanguageTop() {
 	echo -n "$publicReposJSON"                         \
 		| jq -rn 'inputs.language | select(. != null)' \
 		| sort | uniq -c | sort -nr                    \
-		| head -n1
+		| head -n1 | cut -d' ' -f2-
 }
 
 # repoLicenses ($publicReposJSON)
@@ -237,7 +237,7 @@ repoLicenseTop() {
 	echo -n "$publicReposJSON"                             \
 		| jq -rn 'inputs.license.spdx_id | select(. != null)' \
 		| sort | uniq -c | sort -nr                        \
-		| head -n1
+		| head -n1 | cut -d' ' -f2-
 }
 
 # topUnique numUnique < uniqOutput
