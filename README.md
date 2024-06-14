@@ -7,32 +7,35 @@
     <img alt="License badge" src="https://img.shields.io/badge/Favorite%20License-GPLv3.0-%23f1e05a" />
 </p>
 
-- 📚️ 434 **public repositories**.
-- ⭐️ 4437 **stargazers**. <img align="right" alt="Stars graph" src="sparklines/stargazers.svg" height="18px" />
-- 💻️ **Programming Languages:** Go
+- 📚️ 434 public repositories
+- ⭐️ 4437 stargazers <img align="right" alt="Stars graph" src="sparklines/stargazers.svg" height="18px" />
+- 💻️ Programming Languages: Go
  (45%), TypeScript
  (11%), Python
- (7%), and others (37%).
-- 📃️ **Preferred Licenses:** GPL-3.0
+ (7%), and others (37%)
+- 📃️ Preferred Licenses: GPL-3.0
  (15%), ISC
  (12%), MIT
- (10%), and others (63%).
-- 📦️ **Package Manager:** Nix. (Lix is OK, too!)
-- 🌐️ **Website:** [libdb.so](https://libdb.so/)
-- ✒️ **Blog:** [blog.libdb.so](https://blog.libdb.so/)
-- 💼 **Resume:** [resume.pdf](https://github.com/diamondburned/resume/blob/main/resume.pdf)
+ (10%), and others (63%)
+- 📦️ Package Manager: Nix (Lix is OK, too!)
+- 🌐️ Website: [libdb.so](https://libdb.so/)
+- ✒️ Blog: [blog.libdb.so](https://blog.libdb.so/)
+- 💼 Resume: [resume.pdf](https://github.com/diamondburned/resume/blob/main/resume.pdf)
   <sub><sup>([source](https://github.com/diamondburned/resume/blob/main/resume.json))</sup></sub>
-- 🐘 **Mastodon:** [@diamond@tech.lgbt](https://tech.lgbt/@diamond)
+- 🐘 Mastodon: [@diamond@tech.lgbt](https://tech.lgbt/@diamond)
 
 <details>
-<summary><b>Contact</b></summary>
+<summary><b>Communities</b></summary>
 <br>
 
 I hang out in the following places:
 
-- [Matrix](https://matrix.to/#/#nixhub-home:matrix.org)
-- [Discord](https://discord.gg/hnzYamS)
-- [Mastodon](https://tech.lgbt/@diamond)
+| Platform | Name |
+| --- | --- |
+| **Matrix** | [#nixhub-home:matrix.org](https://matrix.to/#/#nixhub-home:matrix.org) |
+| **Discord** | [nixhub](https://discord.gg/hnzYamS) |
+| **Mastodon** | [@diamond@tech.lgbt](https://tech.lgbt/@diamond) |
+
 
 </details>
 
