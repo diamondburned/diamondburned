@@ -216,12 +216,28 @@ repoLanguages() {
 		| topUnique 3
 }
 
+# repoLanguageTop ($publicReposJSON)
+repoLanguageTop() {
+	echo -n "$publicReposJSON"                         \
+		| jq -rn 'inputs.language | select(. != null)' \
+		| sort | uniq -c | sort -nr                    \
+		| head -n1
+}
+
 # repoLicenses ($publicReposJSON)
 repoLicenses() {
 	echo -n "$publicReposJSON"                             \
 		| jq -rn 'inputs.license.spdx_id | select(. != null)' \
 		| sort | uniq -c | sort -nr                        \
 		| topUnique 3
+}
+
+# repoLicenseTop ($publicReposJSON)
+repoLicenseTop() {
+	echo -n "$publicReposJSON"                             \
+		| jq -rn 'inputs.license.spdx_id | select(. != null)' \
+		| sort | uniq -c | sort -nr                        \
+		| head -n1
 }
 
 # topUnique numUnique < uniqOutput
