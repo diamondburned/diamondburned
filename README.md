@@ -3,8 +3,8 @@
 <p align="center">
 <img alt="Repositories badge" src="https://img.shields.io/badge/Public%20Repositories-434-%23248eb7" />
 <img alt="Stargazers badge" src="https://img.shields.io/badge/Stargazers-4437-%23bf5d2f" />
-    <img alt="Language badge" src="https://img.shields.io/badge/Favorite%20Language-   198 Go-%23e05d44" />
-    <img alt="License badge" src="https://img.shields.io/badge/Favorite%20License-    68 GPLv3.0-%23f1e05a" />
+    <img alt="Language badge" src="https://img.shields.io/badge/Favorite%20Language-Go-%23e05d44" />
+    <img alt="License badge" src="https://img.shields.io/badge/Favorite%20License-GPL-%23f1e05a" />
 </p>
 
 - 📚️ 434 **public repositories**.
