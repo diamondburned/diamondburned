@@ -7,26 +7,29 @@
     <img alt="License badge" src="https://img.shields.io/badge/Favorite%20License-$(repoLicenseTop | sed 's/-/v/g')-%23f1e05a" />
 </p>
 
-- 📚️ $(nPublicRepos) **public repositories**.
-- ⭐️ $(nStargazers) **stargazers**. <img align="right" alt="Stars graph" src="sparklines/stargazers.svg" height="18px" />
-- 💻️ **Programming Languages:** $(repoLanguages).
-- 📃️ **Preferred Licenses:** $(repoLicenses).
-- 📦️ **Package Manager:** Nix. (Lix is OK, too!)
-- 🌐️ **Website:** [libdb.so](https://libdb.so/)
-- ✒️ **Blog:** [blog.libdb.so](https://blog.libdb.so/)
-- 💼 **Resume:** [resume.pdf](https://github.com/diamondburned/resume/blob/main/resume.pdf)
+- 📚️ $(nPublicRepos) public repositories
+- ⭐️ $(nStargazers) stargazers <img align="right" alt="Stars graph" src="sparklines/stargazers.svg" height="18px" />
+- 💻️ Programming Languages: $(repoLanguages)
+- 📃️ Preferred Licenses: $(repoLicenses)
+- 📦️ Package Manager: Nix (Lix is OK, too!)
+- 🌐️ Website: [libdb.so](https://libdb.so/)
+- ✒️ Blog: [blog.libdb.so](https://blog.libdb.so/)
+- 💼 Resume: [resume.pdf](https://github.com/diamondburned/resume/blob/main/resume.pdf)
   <sub><sup>([source](https://github.com/diamondburned/resume/blob/main/resume.json))</sup></sub>
-- 🐘 **Mastodon:** [@diamond@tech.lgbt](https://tech.lgbt/@diamond)
+- 🐘 Mastodon: [@diamond@tech.lgbt](https://tech.lgbt/@diamond)
 
 <details>
-<summary><b>Contact</b></summary>
+<summary><b>Communities</b></summary>
 <br>
 
 I hang out in the following places:
 
-- [Matrix](https://matrix.to/#/#nixhub-home:matrix.org)
-- [Discord](https://discord.gg/hnzYamS)
-- [Mastodon](https://tech.lgbt/@diamond)
+| Platform | Name |
+| --- | --- |
+| **Matrix** | [#nixhub-home:matrix.org](https://matrix.to/#/#nixhub-home:matrix.org) |
+| **Discord** | [nixhub](https://discord.gg/hnzYamS) |
+| **Mastodon** | [@diamond@tech.lgbt](https://tech.lgbt/@diamond) |
+
 
 </details>
 
