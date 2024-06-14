@@ -213,7 +213,7 @@ repoLanguages() {
 	echo -n "$publicReposJSON"                         \
 		| jq -rn 'inputs.language | select(. != null)' \
 		| sort | uniq -c | sort -nr                    \
-		| topUnique 3
+		| topUniqueEnglish 3
 }
 
 # repoLanguageTop ($publicReposJSON)
@@ -221,7 +221,7 @@ repoLanguageTop() {
 	echo -n "$publicReposJSON"                         \
 		| jq -rn 'inputs.language | select(. != null)' \
 		| sort | uniq -c | sort -nr                    \
-		| head -n1 | cut -d' ' -f2-
+		| topUnique 1
 }
 
 # repoLicenses ($publicReposJSON)
@@ -229,7 +229,7 @@ repoLicenses() {
 	echo -n "$publicReposJSON"                             \
 		| jq -rn 'inputs.license.spdx_id | select(. != null)' \
 		| sort | uniq -c | sort -nr                        \
-		| topUnique 3
+		| topUniqueEnglish 3
 }
 
 # repoLicenseTop ($publicReposJSON)
@@ -237,11 +237,28 @@ repoLicenseTop() {
 	echo -n "$publicReposJSON"                             \
 		| jq -rn 'inputs.license.spdx_id | select(. != null)' \
 		| sort | uniq -c | sort -nr                        \
-		| head -n1 | cut -d' ' -f2-
+		| topUnique 1
 }
 
-# topUnique numUnique < uniqOutput
 topUnique() {
+	numUnique="${1:- 0}"
+	(( numUnique < 1 )) && return 1
+
+	readarray -d $'\n' lines
+
+	top=()
+	for line in "${lines[@]}"; do
+		[[ "$line" =~ \ *([0-9]+)\ ([A-Za-z0-9 ]+) ]] && {
+			local item=${BASH_REMATCH[2]}
+			top+=( "$item" )
+			(( ${#top[@]} == numUnique )) && break
+		}
+	done
+	printf "%s\n" "${top[@]}"
+}
+
+# topUniqueEnglish numUnique < uniqOutput
+topUniqueEnglish() {
 	numUnique="${1:- 0}"
 	(( numUnique < 1 )) && return 1
 
