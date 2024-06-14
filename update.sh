@@ -248,7 +248,7 @@ topUnique() {
 
 	top=()
 	for line in "${lines[@]}"; do
-		[[ "$line" =~ \ *([0-9]+)\ ([A-Za-z0-9 ]+) ]] && {
+		[[ "$line" =~ \ *([0-9]+)\ (.+) ]] && {
 			local item=${BASH_REMATCH[2]}
 			top+=( "$item" )
 			(( ${#top[@]} == numUnique )) && break
@@ -269,7 +269,7 @@ topUniqueEnglish() {
 	sum=0
 
 	for line in "${lines[@]}"; do
-		[[ "$line" =~ \ *([0-9]+)\ ([A-Za-z0-9 ]+) ]] && {
+		[[ "$line" =~ \ *([0-9]+)\ (.+) ]] && {
 			local count=${BASH_REMATCH[1]}
 			local item=${BASH_REMATCH[2]}
 
