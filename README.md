@@ -1,13 +1,13 @@
 ## diamondburned <sub><sup>she/her it/its</sup></sub>
 
 <p align="center">
-<img alt="Repositories badge" src="https://img.shields.io/badge/Public%20Repositories-451-%23248eb7" />
+<img alt="Repositories badge" src="https://img.shields.io/badge/Public%20Repositories-450-%23248eb7" />
 <img alt="Stargazers badge" src="https://img.shields.io/badge/Stargazers-4976-%23bf5d2f" />
     <img alt="Language badge" src="https://img.shields.io/badge/Favorite%20Language-Go-%23e05d44" />
     <img alt="License badge" src="https://img.shields.io/badge/Favorite%20License-GPLv3.0-%23f1e05a" />
 </p>
 
-- 📚️ 451 public repositories
+- 📚️ 450 public repositories
 - ⭐️ 4976 stargazers <img align="right" alt="Stars graph" src="sparklines/stargazers.svg" height="18px" />
 - 💻️ Programming Languages: Go
  (44%), TypeScript
