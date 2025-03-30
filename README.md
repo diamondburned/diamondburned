@@ -1,14 +1,14 @@
 ## diamondburned <sub><sup>she/her it/its</sup></sub>
 
 <p align="center">
-<img alt="Repositories badge" src="https://img.shields.io/badge/Public%20Repositories-452-%23248eb7" />
-<img alt="Stargazers badge" src="https://img.shields.io/badge/Stargazers-5067-%23bf5d2f" />
+<img alt="Repositories badge" src="https://img.shields.io/badge/Public%20Repositories-453-%23248eb7" />
+<img alt="Stargazers badge" src="https://img.shields.io/badge/Stargazers-5068-%23bf5d2f" />
     <img alt="Language badge" src="https://img.shields.io/badge/Favorite%20Language-Go-%23e05d44" />
     <img alt="License badge" src="https://img.shields.io/badge/Favorite%20License-GPLv3.0-%23f1e05a" />
 </p>
 
-- 📚️ 452 public repositories
-- ⭐️ 5067 stargazers <img align="right" alt="Stars graph" src="sparklines/stargazers.svg" height="18px" />
+- 📚️ 453 public repositories
+- ⭐️ 5068 stargazers <img align="right" alt="Stars graph" src="sparklines/stargazers.svg" height="18px" />
 - 💻️ Programming Languages: Go
  (44%), TypeScript
  (11%), Python
@@ -16,7 +16,7 @@
 - 📃️ Preferred Licenses: GPL-3.0
  (15%), ISC
  (12%), MIT
- (10%), and others (63%)
+ (11%), and others (62%)
 - 📦️ Package Manager: Nix (Lix is OK, too!)
 - 🌐️ Website: [libdb.so](https://libdb.so/)
 - ✒️ Blog: [blog.libdb.so](https://blog.libdb.so/)
