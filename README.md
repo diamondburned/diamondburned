@@ -1,22 +1,16 @@
 ## diamondburned <sub><sup>she/her it/its</sup></sub>
 
 <p align="center">
-<img alt="Repositories badge" src="https://img.shields.io/badge/Public%20Repositories-422-%23248eb7" />
-<img alt="Stargazers badge" src="https://img.shields.io/badge/Stargazers-5204-%23bf5d2f" />
-    <img alt="Language badge" src="https://img.shields.io/badge/Favorite%20Language-Go-%23e05d44" />
-    <img alt="License badge" src="https://img.shields.io/badge/Favorite%20License-GPLv3.0-%23f1e05a" />
+<img alt="Repositories badge" src="https://img.shields.io/badge/Public%20Repositories-0-%23248eb7" />
+<img alt="Stargazers badge" src="https://img.shields.io/badge/Stargazers-null-%23bf5d2f" />
+    <img alt="Language badge" src="https://img.shields.io/badge/Favorite%20Language--%23e05d44" />
+    <img alt="License badge" src="https://img.shields.io/badge/Favorite%20License--%23f1e05a" />
 </p>
 
-- 📚️ 422 public repositories
-- ⭐️ 5204 stargazers <img align="right" alt="Stars graph" src="sparklines/stargazers.svg" height="18px" />
-- 💻️ Programming Languages: Go
- (43%), TypeScript
- (11%), Python
- (7%), and others (39%)
-- 📃️ Preferred Licenses: GPL-3.0
- (14%), ISC
- (12%), MIT
- (12%), and others (62%)
+- 📚️ 0 public repositories
+- ⭐️ null stargazers <img align="right" alt="Stars graph" src="sparklines/stargazers.svg" height="18px" />
+- 💻️ Programming Languages: 
+- 📃️ Preferred Licenses: 
 - 📦️ Package Manager: Nix (Lix is OK, too!)
 - 🌐️ Website: [libdb.so](https://libdb.so/)
 - ✒️ Blog: [blog.libdb.so](https://blog.libdb.so/)
