@@ -2,13 +2,13 @@
 
 <p align="center">
 <img alt="Repositories badge" src="https://img.shields.io/badge/Public%20Repositories-1852-%23248eb7" />
-<img alt="Stargazers badge" src="https://img.shields.io/badge/Stargazers-221010-%23bf5d2f" />
+<img alt="Stargazers badge" src="https://img.shields.io/badge/Stargazers-221012-%23bf5d2f" />
     <img alt="Language badge" src="https://img.shields.io/badge/Favorite%20Language-Go-%23e05d44" />
     <img alt="License badge" src="https://img.shields.io/badge/Favorite%20License-Apachev2.0-%23f1e05a" />
 </p>
 
 - 📚️ 1852 public repositories
-- ⭐️ 221010 stargazers <img align="right" alt="Stars graph" src="sparklines/stargazers.svg" height="18px" />
+- ⭐️ 221012 stargazers <img align="right" alt="Stars graph" src="sparklines/stargazers.svg" height="18px" />
 - 💻️ Programming Languages: Go
  (21%), Python
  (16%), HCL
