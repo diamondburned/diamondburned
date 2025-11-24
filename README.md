@@ -11,8 +11,8 @@
 - ⭐️ 225276 stargazers <img align="right" alt="Stars graph" src="sparklines/stargazers.svg" height="18px" />
 - 💻️ Programming Languages: Go
  (21%), Python
- (16%), HCL
- (8%), and others (55%)
+ (17%), HCL
+ (8%), and others (54%)
 - 📃️ Preferred Licenses: Apache-2.0
  (70%), GPL-3.0
  (3%), MIT
