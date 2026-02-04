@@ -10,9 +10,9 @@
 - 📚️ 1909 public repositories
 - ⭐️ 231732 stargazers <img align="right" alt="Stars graph" src="sparklines/stargazers.svg" height="18px" />
 - 💻️ Programming Languages: Go
- (20%), Python
+ (21%), Python
  (17%), HCL
- (9%), and others (54%)
+ (9%), and others (53%)
 - 📃️ Preferred Licenses: Apache-2.0
  (70%), GPL-3.0
  (3%), MIT
