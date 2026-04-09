@@ -1,14 +1,14 @@
 ## diamondburned <sub><sup>she/her it/its</sup></sub>
 
 <p align="center">
-<img alt="Repositories badge" src="https://img.shields.io/badge/Public%20Repositories-1931-%23248eb7" />
-<img alt="Stargazers badge" src="https://img.shields.io/badge/Stargazers-239274-%23bf5d2f" />
+<img alt="Repositories badge" src="https://img.shields.io/badge/Public%20Repositories-1930-%23248eb7" />
+<img alt="Stargazers badge" src="https://img.shields.io/badge/Stargazers-239275-%23bf5d2f" />
     <img alt="Language badge" src="https://img.shields.io/badge/Favorite%20Language-Go-%23e05d44" />
     <img alt="License badge" src="https://img.shields.io/badge/Favorite%20License-Apachev2.0-%23f1e05a" />
 </p>
 
-- 📚️ 1931 public repositories
-- ⭐️ 239274 stargazers <img align="right" alt="Stars graph" src="sparklines/stargazers.svg" height="18px" />
+- 📚️ 1930 public repositories
+- ⭐️ 239275 stargazers <img align="right" alt="Stars graph" src="sparklines/stargazers.svg" height="18px" />
 - 💻️ Programming Languages: Go
  (20%), Python
  (17%), HCL
